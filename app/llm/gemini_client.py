@@ -39,48 +39,49 @@ Question:
 
         try:
 
-        response = (
-            self.client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt
+            response = (
+                self.client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt
+                )
             )
+
+            return response.text
+
+        except Exception as e:
+
+            print(
+                f"\nGemini Error: {e}"
+            )
+
+        return (
+            "Sorry, I could not generate an answer "
+            "at the moment."
         )
 
-        return response.text
 
-    except Exception as e:
+        def expand_query(
+            self,
+            query: str
+        ) -> str:
 
-        print(
-            f"\nGemini Error: {e}"
+            prompt = f"""
+        Expand the following search query for a RAG system.
+
+        Requirements:   
+        - Keep the original meaning.
+        - Add related terms and concepts.
+        - Return only the expanded query.
+        - Do not explain anything.
+
+        Query:
+        {query}
+        """
+
+            response = self.client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
         )
 
-    return (
-        "Sorry, I could not generate an answer "
-        "at the moment."
-    )
-
-
-    def expand_query(
-        self,
-        query: str
-    ) -> str:
-
-        prompt = f"""
-    Expand the following search query for a RAG system.
-
-    Requirements:   
-    - Keep the original meaning.
-    - Add related terms and concepts.
-    - Return only the expanded query.
-    - Do not explain anything.
-
-    Query:
-    {query}
-    """
-
-        response = self.client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
-
-        return response.text
+            
+            return response.text
