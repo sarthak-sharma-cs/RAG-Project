@@ -3,6 +3,7 @@ import chromadb
 from app.retrieval.query_expander import QueryExpander
 from app.embeddings.embedder import EmbeddingModel
 from app.retrieval.bm25_search import BM25Search
+from app.retrieval.reranker import Reranker
 
 class Retriever:
     """
@@ -23,6 +24,7 @@ class Retriever:
 
         self.query_expander = QueryExpander()
         self.bm25_search = BM25Search()
+        self.reranker = Reranker()
 
     def retrieve(
          self,
@@ -95,15 +97,42 @@ class Retriever:
         reverse=True,
         key=lambda x: x[0]
     )
+        documents_for_reranking = [
+            item[1]
+            for item in combined
+]
 
-        results["documents"][0] = [
-        item[1]
-        for item in combined
-    ]
+        reranked = self.reranker.rerank(
+            query,
+            documents_for_reranking
+)
 
-        results["metadatas"][0] = [
-        item[2]
-        for item in combined
-    ]
+        reranked_documents = []
+
+        reranked_metadatas = []
+
+        for score, doc in reranked:
+
+            for item in combined:
+
+                if item[1] == doc:
+
+                    reranked_documents.append(
+                    doc
+            )
+
+                    reranked_metadatas.append(
+                    item[2]
+            )
+
+                    break
+
+        results["documents"][0] = (
+        reranked_documents
+)
+
+        results["metadatas"][0] = (
+        reranked_metadatas
+)
         
         return results

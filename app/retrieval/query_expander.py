@@ -12,6 +12,15 @@ class QueryExpander:
         query: str
     ) -> str:
 
-        return self.gemini.expand_query(
-            query
-        )
+        try:
+            return self.gemini.expand_query(
+                query
+            )
+
+        except Exception:
+
+            print(
+                "\nQuery Expansion Failed. Using Original Query."
+            )
+
+            return query
