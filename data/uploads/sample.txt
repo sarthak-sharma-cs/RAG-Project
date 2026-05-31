@@ -1,0 +1,447 @@
+TBHSI Employee Handbook
+
+Version: 3.2
+Effective Date: January 1, 2025
+Organization: TBHSI Technologies Pvt. Ltd.
+
+Introduction
+
+Welcome to TBHSI Technologies Pvt. Ltd. This handbook outlines the key employment policies applicable to all full-time employees of the company. These policies are designed to ensure fairness, transparency, employee well-being, and compliance with applicable labor laws.
+
+Employees are expected to familiarize themselves with the contents of this handbook and seek clarification from the Human Resources (HR) department whenever required.
+
+1. Annual Leave Policy
+Purpose
+
+The Annual Leave Policy enables employees to take time off for personal rest, vacations, family commitments, and other non-work-related activities.
+
+Eligibility
+
+All permanent employees are eligible for annual leave upon successful completion of probation.
+
+Leave Entitlement
+
+Employees are entitled to:
+
+24 days of paid annual leave per calendar year.
+Leave is credited monthly at the rate of 2 days per month.
+Part-time employees receive leave on a pro-rated basis.
+Leave Application Process
+
+Employees must:
+
+Submit leave requests through the HRMS portal.
+Obtain approval from their reporting manager.
+Apply at least 7 calendar days in advance for planned leave exceeding 3 consecutive working days.
+Carry Forward
+Employees may carry forward up to 10 unused annual leave days into the following year.
+Any balance above 10 days will automatically lapse unless special approval is granted by HR.
+Leave Encashment
+
+Employees may encash unused annual leave during separation from the company, subject to local regulations and company guidelines.
+
+Blackout Periods
+
+Certain business-critical periods may be designated as blackout periods where annual leave approvals may be restricted.
+
+2. Maternity Leave Policy
+Purpose
+
+TBHSI is committed to supporting employees during pregnancy, childbirth, adoption, and early childcare responsibilities.
+
+Eligibility
+
+This policy applies to:
+
+Full-time female employees.
+Employees who have completed at least 80 working days in the preceding 12 months, where required by local law.
+Leave Entitlement
+
+Eligible employees are entitled to:
+
+Up to 26 weeks of paid maternity leave for the first two children.
+Up to 12 weeks of paid maternity leave for subsequent children.
+Additional unpaid leave may be approved based on medical recommendations and business requirements.
+Adoption Leave
+
+Employees legally adopting a child below the age of one year may be eligible for:
+
+12 weeks of paid adoption leave.
+Medical Documentation
+
+Employees must provide:
+
+Medical certificates confirming pregnancy.
+Expected delivery date documentation.
+Any additional supporting documents requested by HR.
+Job Protection
+
+Employees returning from maternity leave will:
+
+Return to the same role whenever reasonably possible.
+Be offered an equivalent position if organizational changes have occurred.
+Flexible Return Options
+
+Subject to managerial approval, employees may request:
+
+Reduced work schedules.
+Temporary remote work arrangements.
+Phased return-to-work plans.
+3. Work From Home Policy
+Purpose
+
+The Work From Home (WFH) Policy establishes guidelines for employees performing work remotely while maintaining productivity, collaboration, and data security.
+
+Eligibility
+
+WFH eligibility depends on:
+
+Job responsibilities.
+Business requirements.
+Performance history.
+Manager approval.
+
+Not all positions are eligible for remote work.
+
+Standard Remote Work Arrangement
+
+Employees approved for WFH may:
+
+Work remotely up to 3 days per week.
+Follow standard working hours unless alternative arrangements have been approved.
+Equipment
+
+The company may provide:
+
+Laptop computers.
+Monitors.
+Headsets.
+Security software.
+
+Employees are responsible for maintaining company equipment in good condition.
+
+Security Requirements
+
+Employees working remotely must:
+
+Use company-approved VPN connections.
+Enable multi-factor authentication.
+Avoid accessing company systems through public Wi-Fi without approved security measures.
+Performance Expectations
+
+Remote employees are expected to:
+
+Attend scheduled meetings.
+Remain reachable during working hours.
+Meet all productivity and quality expectations.
+Revocation of WFH Privileges
+
+WFH arrangements may be modified or revoked due to:
+
+Business needs.
+Security concerns.
+Performance issues.
+Policy violations.
+4. Health Insurance Policy
+Purpose
+
+TBHSI provides health insurance coverage to support employee wellness and reduce financial burdens associated with medical care.
+
+Eligibility
+
+The health insurance plan covers:
+
+Full-time employees.
+Eligible dependents as defined by the insurance provider.
+
+Coverage begins on the first day of the month following employee onboarding.
+
+Coverage Details
+
+The standard health plan includes:
+
+Hospitalization
+
+Coverage for:
+
+Inpatient treatment.
+Surgical procedures.
+Emergency care.
+Intensive care services.
+Outpatient Care
+
+Coverage may include:
+
+Doctor consultations.
+Diagnostic testing.
+Specialist referrals.
+Preventive Care
+
+Eligible preventive services include:
+
+Annual health checkups.
+Vaccinations.
+Health screenings.
+Dependents
+
+Employees may enroll:
+
+Spouses.
+Dependent children.
+Parents, where applicable under company plans.
+
+Additional premiums may apply.
+
+Claims Process
+
+Employees must:
+
+Submit claims according to insurer requirements.
+Provide supporting documentation.
+Adhere to claim submission deadlines.
+Exclusions
+
+Coverage may not include:
+
+Cosmetic procedures.
+Experimental treatments.
+Non-medically necessary services.
+Conditions excluded by the insurance provider.
+Wellness Programs
+
+The company may periodically offer:
+
+Mental health support programs.
+Fitness initiatives.
+Health awareness campaigns.
+Employee assistance services.
+5. Travel Reimbursement Policy
+Purpose
+
+This policy ensures employees are reimbursed for reasonable business-related travel expenses incurred while conducting company business.
+
+Eligibility
+
+Travel reimbursement applies to:
+
+Approved business trips.
+Client visits.
+Conferences.
+Training programs.
+Internal meetings requiring travel.
+Pre-Approval Requirement
+
+All travel must receive:
+
+Manager approval.
+Budget confirmation when applicable.
+
+Unauthorized travel expenses may be rejected.
+
+Air Travel
+Domestic Travel
+
+Employees should generally book:
+
+Economy class tickets.
+International Travel
+
+The following may be approved:
+
+Economy class for flights under 6 hours.
+Premium economy or business class for eligible senior employees and long-haul travel, subject to approval.
+Accommodation
+
+Employees should select reasonably priced accommodations aligned with company travel standards.
+
+Luxury accommodations require prior approval.
+
+Ground Transportation
+
+Reimbursable expenses include:
+
+Taxis.
+Ride-sharing services.
+Airport transfers.
+Public transportation.
+
+Employees should choose cost-effective transportation options whenever practical.
+
+Meals
+
+Meal reimbursement limits are:
+
+Domestic travel: ₹2,000 per day.
+International travel: Based on destination-specific allowances.
+
+Alcoholic beverages are generally not reimbursable.
+
+Expense Submission
+
+Employees must:
+
+Submit expense reports within 15 days of trip completion.
+Attach receipts for all eligible expenses.
+Provide business justification where requested.
+Non-Reimbursable Expenses
+
+Examples include:
+
+Personal entertainment.
+Traffic fines.
+Personal shopping.
+Family member expenses.
+Unapproved upgrades.
+6. Notice Period Policy
+Purpose
+
+The Notice Period Policy facilitates smooth employee transitions while minimizing operational disruption.
+
+Employee Resignation
+
+Employees intending to resign must submit:
+
+A written resignation letter through the HRMS system.
+Standard Notice Period
+
+Unless otherwise specified in the employment agreement:
+
+Employee Category	Notice Period
+Associate	30 Days
+Senior Associate	60 Days
+Manager	90 Days
+Senior Manager and Above	90 Days
+Notice Buyout
+
+Employees may request partial or full notice period buyout.
+
+Approval depends on:
+
+Project commitments.
+Knowledge transfer status.
+Manager and HR approval.
+
+The company is not obligated to approve buyout requests.
+
+Company-Initiated Separation
+
+Notice periods for company-initiated separation will be governed by:
+
+Employment contracts.
+Applicable labor laws.
+Internal disciplinary procedures.
+Knowledge Transfer
+
+Employees serving notice are expected to:
+
+Complete documentation.
+Transfer responsibilities.
+Support replacement onboarding.
+Return company assets.
+Final Settlement
+
+Final payments may include:
+
+Salary up to last working day.
+Approved reimbursements.
+Leave encashment where applicable.
+
+Settlement timelines will follow applicable regulations and company procedures.
+
+7. Training and Development Policy
+Purpose
+
+TBHSI believes continuous learning is essential for individual growth and organizational success.
+
+Scope
+
+This policy covers:
+
+Technical training.
+Leadership development.
+Compliance training.
+Professional certifications.
+External workshops.
+Mandatory Training
+
+Employees must complete assigned mandatory training programs within specified deadlines.
+
+Examples include:
+
+Information security awareness.
+Data privacy compliance.
+Workplace ethics.
+Anti-harassment training.
+
+Failure to complete mandatory training may affect performance evaluations.
+
+Professional Development
+
+Employees may request participation in:
+
+Industry conferences.
+Certification programs.
+Specialized workshops.
+Online learning platforms.
+Training Approval Process
+
+Requests should include:
+
+Training objectives.
+Estimated costs.
+Business relevance.
+Expected outcomes.
+
+Approvals require:
+
+Manager endorsement.
+Budget availability.
+HR review where applicable.
+Training Sponsorship
+
+The company may fully or partially sponsor:
+
+Certification fees.
+Course fees.
+Examination costs.
+Training materials.
+Service Commitment
+
+For company-sponsored programs exceeding ₹50,000, employees may be required to sign a service agreement requiring continued employment for a specified period after training completion.
+
+Knowledge Sharing
+
+Employees attending external training programs may be required to:
+
+Share learning outcomes.
+Conduct internal workshops.
+Create training materials for team use.
+Learning Platforms
+
+The company may provide access to:
+
+E-learning portals.
+Technical learning libraries.
+Professional development resources.
+Internal learning management systems.
+Training Records
+
+HR maintains records of:
+
+Completed courses.
+Certifications.
+Learning achievements.
+Compliance training status.
+
+These records may be considered during:
+
+Performance reviews.
+Promotion decisions.
+Succession planning.
+Policy Amendments
+
+TBHSI reserves the right to modify, amend, suspend, or terminate any policy described in this handbook at any time based on business requirements, legal obligations, or organizational priorities.
+
+Employees will be notified of significant policy changes through official communication channels.
+
+End of Document
