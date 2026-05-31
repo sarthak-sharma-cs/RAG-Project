@@ -37,12 +37,27 @@ Question:
 {question}
 """
 
-        response = self.client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
+        try:
+
+        response = (
+            self.client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt
+            )
         )
 
         return response.text
+
+    except Exception as e:
+
+        print(
+            f"\nGemini Error: {e}"
+        )
+
+    return (
+        "Sorry, I could not generate an answer "
+        "at the moment."
+    )
 
 
     def expand_query(
