@@ -51,3 +51,16 @@ class ChromaStore:
         Number of stored chunks.
         """
         return self.collection.count()
+
+    def get_all_documents(
+        self
+    ):
+        """
+        Get all stored metadata.
+        """
+
+        return self.collection.get(
+            include=["metadatas"]
+        )
+
+        
