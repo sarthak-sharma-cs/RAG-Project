@@ -90,3 +90,11 @@ class IngestionService:
     ):
 
         return self.db.count()
+    
+    def delete_document(
+        self,
+        filename: str
+    ):
+        self.db.delete_document(
+         filename
+        )

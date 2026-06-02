@@ -64,3 +64,16 @@ class ChromaStore:
         )
 
         
+    def delete_document(
+        self,
+        source_file: str
+    ):
+        """
+        Delete all chunks belonging to a document.
+        """
+
+        self.collection.delete(
+            where={
+                "source": source_file
+            }
+        )

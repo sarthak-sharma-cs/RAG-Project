@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi import UploadFile
 from fastapi import File
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
+from fastapi import HTTPException
 
 from app.memory.memory_manager import (
     MemoryManager
@@ -171,3 +173,33 @@ def get_documents():
             list(document_names)
         )
     }
+@app.delete("/documents/{filename}")
+def delete_document(
+        filename: str
+    ):
+
+        try:
+
+            file_path = (
+                Path("data/uploads")
+                / filename
+            )
+
+            if file_path.exists():
+
+                file_path.unlink()
+
+            ingestion_service.delete_document(
+                filename
+            )
+
+            return {
+                "message": "Document deleted successfully"
+            }
+
+        except Exception as e:
+
+            raise HTTPException(
+                status_code=500,
+                detail=str(e)
+            )
