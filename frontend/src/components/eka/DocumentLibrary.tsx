@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
-import { RefreshCw, Search, FileX, Loader2 } from "lucide-react";
+import { RefreshCw, Search, FileX, Loader2, Trash2 } from "lucide-react";
 import { DocumentIcon } from "./DocumentIcon";
 import { EmptyState } from "./EmptyState";
 import type { DocumentItem } from "@/lib/api";
+import { api } from "@/lib/api";
 
 export function DocumentLibrary({
   documents,
@@ -14,6 +15,25 @@ export function DocumentLibrary({
   onRefresh: () => void;
 }) {
   const [query, setQuery] = useState("");
+
+
+
+  const handleDelete = async (filename: string) => {
+  if (!confirm(`Delete ${filename}?`)) {
+    return;
+  }
+
+  try {
+    await api.deleteDocument(filename);
+    onRefresh();
+  } catch (error) {
+    console.error(error);
+    alert("Failed to delete document");
+  }
+};
+
+
+
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -75,21 +95,34 @@ export function DocumentLibrary({
               const name = doc.filename || doc.name || `Document ${i + 1}`;
               return (
                 <li
-                  key={(doc.id as string) || name + i}
-                  className="group flex items-center gap-2.5 rounded-lg px-2 py-2 transition-colors hover:bg-sidebar-accent"
-                >
-                  <DocumentIcon name={name} />
-                  <div className="min-w-0 flex-1">
-                    <p className="truncate text-xs font-medium text-foreground" title={name}>
-                      {name}
-                    </p>
-                    {doc.chunks !== undefined && (
-                      <p className="text-[10px] text-muted-foreground">
-                        {doc.chunks} chunks
-                      </p>
-                    )}
-                  </div>
-                </li>
+                              key={(doc.id as string) || name + i}
+                              className="group flex items-center gap-2.5 rounded-lg px-2 py-2 transition-colors hover:bg-sidebar-accent"
+                            >
+                              <DocumentIcon name={name} />
+
+                              <div className="min-w-0 flex-1">
+                                <p
+                                  className="truncate text-xs font-medium text-foreground"
+                                  title={name}
+                                >
+                                  {name}
+                                </p>
+
+                                {doc.chunks !== undefined && (
+                                  <p className="text-[10px] text-muted-foreground">
+                                    {doc.chunks} chunks
+                                  </p>
+                                )}
+                              </div>
+
+                              <button
+                                onClick={() => handleDelete(name)}
+                                className="opacity-0 transition-opacity group-hover:opacity-100 text-muted-foreground hover:text-destructive"
+                                title="Delete document"
+                              >
+                                <Trash2 className="h-4 w-4" />
+                              </button>
+                            </li>
               );
             })}
           </ul>

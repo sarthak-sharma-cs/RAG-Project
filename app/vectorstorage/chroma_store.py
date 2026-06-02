@@ -68,12 +68,16 @@ class ChromaStore:
         self,
         source_file: str
     ):
-        """
-        Delete all chunks belonging to a document.
-        """
+    
+        print("DELETING:", source_file)
 
         self.collection.delete(
-            where={
-                "source": source_file
-            }
+        where={
+            "source": source_file
+        }
+        )
+
+        print(
+        "COUNT AFTER DELETE:",
+        self.collection.count()
         )

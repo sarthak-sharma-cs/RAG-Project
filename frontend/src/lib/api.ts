@@ -95,4 +95,21 @@ async upload(file: File, onProgress?: (pct: number) => void): Promise<void> {
       xhr.send(fd);
     });
   },
+
+
+  async deleteDocument(
+  filename: string
+): Promise<void> {
+
+  const res = await fetch(
+    `${BASE_URL}/documents/${encodeURIComponent(filename)}`,
+    {
+      method: "DELETE",
+    }
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to delete document");
+  }
+},
 };

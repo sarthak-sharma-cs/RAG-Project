@@ -160,6 +160,8 @@ def get_documents():
         db.get_all_documents()
     )
 
+    
+
     document_names = set()
 
     for metadata in results["metadatas"]:
@@ -185,6 +187,10 @@ def delete_document(
                 / filename
             )
 
+
+
+           
+
             if file_path.exists():
 
                 file_path.unlink()
@@ -203,3 +209,5 @@ def delete_document(
                 status_code=500,
                 detail=str(e)
             )
+
+           
