@@ -1,9 +1,14 @@
 from fastapi import FastAPI
 from fastapi import UploadFile
 from fastapi import File
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.memory.memory_manager import (
     MemoryManager
+)
+
+from fastapi.middleware.cors import (
+    CORSMiddleware
 )
 
 from app.api.schemas import (
@@ -27,6 +32,16 @@ app = FastAPI(
     version="1.0.0"
 )
 
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:8080"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 retriever = Retriever()
 
